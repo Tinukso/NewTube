@@ -2,7 +2,7 @@
     <img src="/img/logo.png" alt="logo" title="logo" width="50%" style="text-align:center;">
 </div>
 
-# PornTube 一个能发弹幕的简单的视频网站
+# NewTube 一个能发弹幕的简单的视频网站
 
 
 ## 截图
@@ -43,7 +43,7 @@
 
 ## 快速运行
 
-**运行环境: Java11, Node 14, Maven3**
+**运行环境: Java1.8, Node 14, Maven3**
 
 使用 porn_tube.sql 创建数据库，配置数据库地址
 
@@ -57,7 +57,7 @@ mvn clean package
 **之后**
 
 ```bash
-java -jar target/porntube-0.1.2-SNAPSHOT
+java -jar target/porntube-0.1.5-SNAPSHOT
 ```
 
 **运行前端服务**

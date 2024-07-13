@@ -10,8 +10,7 @@
 
 <br/>
 
-# PornTube
-
+# NewTube
 
 ## screenshot
 
@@ -52,7 +51,7 @@ for example, Video upload, danmaku, historical records, Auto generate cover imag
 
 ## Quick start
 
-**Run Environment: Java11, Node 14, Maven3**
+**Run Environment: Java1.8, Node 14, Maven3**
 
 Creating a database, Configuring Database Addresses
 
@@ -66,7 +65,7 @@ mvn clean package
 **Then**
 
 ```bash
-java -jar target/porntube-0.1.2-SNAPSHOT
+java -jar target/porntube-0.1.5-SNAPSHOT
 ```
 
 **Run front end server**
@@ -102,5 +101,4 @@ http://127.0.0.1:8000
 ## CHANGE LOG
 
 [CHANGELOG](/CHANGELOG.md)
-
 
